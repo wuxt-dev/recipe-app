@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>我的食谱</title>
+</head>
+
+<body>
+  <h1>🍳 我的食谱网站</h1>
+
+  <h2>添加食谱</h2>
+  <input id="name" placeholder="食谱名称" />
+  <br><br>
+  <textarea id="ingredients" placeholder="食材"></textarea>
+  <br><br><input id="editIndex" type="hidden">
+  <button onclick="addRecipe()">添加</button>
+  <h2>食谱列表</h2>
+  <div id="list"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
